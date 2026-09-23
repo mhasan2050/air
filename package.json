@@ -1,0 +1,18 @@
+{
+  "name": "air-lang",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Compact, typed agent IR with a readable view and portable C backend",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test",
+    "air": "node src/cli.js"
+  },
+  "dependencies": {
+    "gpt-tokenizer": "^4.0.0",
+    "peggy": "^5.1.0"
+  }
+}

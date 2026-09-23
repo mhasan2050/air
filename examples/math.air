@@ -1,0 +1,5 @@
+air1
+square(value:u):u=value*value;
+max(left:u,right:u):u=if left>right then left else right;
+factorial(value:u):u=if value==0 then 1 else value*factorial(value-1);
+main():u=let squared=square(6) in max(squared,42);
